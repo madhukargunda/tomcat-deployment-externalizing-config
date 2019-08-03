@@ -12,7 +12,7 @@
 		className="org.apache.catalina.webresources.StandardRoot">
 		<PreResources
 			className="org.apache.catalina.webresources.DirResourceSet"
-			base="/User/admin/admin/spring-cloud-config/currency-conversion-service/config"
+			base="/User/admin/admin/spring-cloud-config/currency-conversion-service/config" ,internalPath="/"
 			webAppMount="/WEB-INF/classes">
 		</PreResource>
 	</Resource>
